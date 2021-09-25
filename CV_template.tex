@@ -1,0 +1,93 @@
+% CV template
+%
+% Author: Christopher Keyes
+% Updated: September 24, 2021
+%
+% OK to use and edit!
+
+\documentclass{cv_style}
+\usepackage{enumitem}
+\usepackage{etaremune}
+\usepackage{amsmath}
+\usepackage[colorlinks = true, linkcolor = blue, urlcolor = blue, citecolor = blue, anchorcolor = blue]{hyperref}
+
+\begin{document}
+
+	\footnotetext[1]{Updated \today}
+    \pagenumbering{gobble}
+
+    \begin{center} \name{Your Name} 
+
+    \contact{Affiliation}{Department}{Office}{\href{mailto:your.email@institution.edu}{your.email@institution.edu}}{\href{http://www.institution.edu/your_website/}{your website}}
+    
+	\end{center}
+	
+	\section{Academic Interests}
+	Briefly list your primary areas of academic interests here
+
+	\section{Education}
+		\begin{trivlist}
+			\item \textbf{Graduate institution},  city, state (, country)
+				\begin{itemize}
+					\item Ph.D., Degree (expected graduation: 20xx).
+					\item Advisor: advisor's name.
+				\end{itemize}
+				
+			\item \textbf{Undergraduate institution}, city, state (, country)
+				\begin{itemize}
+					\item B.S., Degree, \textit{Summa Cum Laude} (20xx).
+					\item Senior thesis: {\em Senior thesis title}, Thesis honors.
+				\end{itemize}
+		\end{trivlist}
+		
+% \paper[Collaborator's name]{Title}{Status (e.g.\ in prep., submitted, accepted)}{(links)}
+
+	\section{Publications and Preprints}
+		\begin{etaremune}			
+					\item \paper[Collaborator's name]{Title}{Status (in prep., submitted, accepted)}{(links)}
+							
+					\item \paper{Title}{Status}{(links)}
+					
+		\end{etaremune}
+		
+% \talk{title}{venue}{host}{date}
+		
+	\section{Invited Talks}
+		\begin{etaremune}
+			\item \talk{Talk title}{Venue or location}{Host organization}{Date}
+		\end{etaremune}
+		
+	\section{Contributed Talks}
+		\begin{etaremune}
+			\item \talk{Talk title}{Venue or location}{Host organization}{Date}
+		\end{etaremune}
+		
+	\section{Teaching Experience}
+		\textbf{University name}	
+		\begin{itemize}
+			\item Instructor, Course (semesters).
+			\item Teaching Assistant, Course (semesters).
+			\item Grader, Course (semesters).
+		\end{itemize}
+		
+	\section{Organization}
+	
+	\textbf{Seminars}
+	\begin{itemize}
+		\item Co-organizer of \textit{Seminar title}, with Collaborator Name(s) (semesters). Seminar \href{https://seminarwebsite.com}{website}.
+	\end{itemize}
+	
+	\textbf{Professional society chapter}\\[1ex]
+	Do you run your school's professional society? If so, list that here.
+		
+	\section{Outreach}
+		\begin{itemize}
+			\item Instructor, Outreach program (dates).
+		\end{itemize}
+		
+	\section{Awards}
+		\begin{itemize}
+			\item Award (year).
+		\end{itemize}
+
+\end{document}
