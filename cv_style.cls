@@ -30,7 +30,7 @@
 
 % format subsection headings
 \titleformat{\subsection}
-    {\large\scshape\raggedright}
+    {\large\bfseries\raggedright}
     {}{0em}
     {}
 
